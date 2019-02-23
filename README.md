@@ -2,7 +2,7 @@
 
 Este repositório contém os Jupyter Notebooks utilizados para ministrar o ***Minicurso Construindo Classificadores***.
 
-![Anúncio Minicurso](img\MC_Classificadores_Anuncio.gif)
+![Anúncio Minicurso](https://raw.githubusercontent.com/accardoso/minicurso_classificadores/master/img/MC_Classificadores_Anuncio.gif)
 
 ## Objetivos
 
@@ -64,7 +64,7 @@ Para isto, basta:
 2. Acessar o link: https://colab.research.google.com
 3. Siga para a aba *GitHub*, *Google Drive* ou *Upload* e adicione o notebook ao seu Colaboratory.
 
-![Enviando notebook para Colab](img\colab.gif)
+![Enviando notebook para Colab](https://raw.githubusercontent.com/accardoso/minicurso_classificadores/master/img/colab.gif)
 
 #### Dicas de utilização do Colaboratory
 

@@ -52,7 +52,7 @@ Considerando aulas de 2h.
 
 - Programação em qualquer linguagem.
 
-- Conta no Google Drive se for utilizar o Google Colaboratory, ou Ambiente instalado com Python 3.7 com dependências.
+- Conta no Google Drive se for utilizar o Google Colaboratory, ou Ambiente instalado com Python 3.7 e dependências.
 
 ## Executando
 

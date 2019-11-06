@@ -90,4 +90,4 @@ De qualquer forma, a versão utilizada do Python foi a *3.7*. E sugiro fortement
 
 #### Arquivos de requisitos
 
-Para seu maior aprendizado tente levantar o ambiente e instalar as dependências informadas no notebook por conta própria. Mas se preferir dentro de um anaconda prompt execute o arquivo setup.bat abaixo.
+Para seu maior aprendizado tente levantar o ambiente e instalar as dependências informadas no notebook por conta própria. Mas se preferir dentro de um anaconda prompt execute o arquivo setup.bat.

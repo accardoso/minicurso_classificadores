@@ -90,4 +90,27 @@ De qualquer forma, a versão utilizada do Python foi a *3.7*. E sugiro fortement
 
 #### Arquivos de requisitos
 
-Para seu maior aprendizado tente levantar o ambiente e instalar as dependências informadas no notebook por conta própria. Mas se preferir dentro de um anaconda prompt execute o arquivo setup.bat.
+Para seu maior aprendizado tente levantar o ambiente e instalar as dependências informadas no notebook por conta própria. Uma forma prática de criar o ambiente com as mesmas dependencias que utilizei é utilizando o arquivo requirements.txt:
+
+- Conda:
+```
+conda create -n <nome do ambiente> --file requirements.txt
+activate <nome do ambiente>
+jupyter notebook
+```
+
+- Virtualenv + Pip (Windows): 
+```
+cd <diretório raís do projeto>
+virtualenv <nome do ambiente>
+.\<nome do ambiente>\Scripts\activate
+pip install -r requirements.txt
+```
+
+- Virtualenv + Pip (Unix):
+```
+cd <diretório raís do projeto>
+virtualenv <nome do ambiente>
+source  <nome do ambiente>/bin/activate
+pip install -r requirements.txt
+```

@@ -84,7 +84,7 @@ Para isto, basta:
 
 Os notebooks também podem ser executados diretamente na própria máquina (local ou servidor) sem a necessidade de um serviço como o Colaboratory. Neste caso é necessário ter o Python e as dependências instaladas.
 
-Para iniciantes em Ciências de Dados e Inteligência Artificial a distribuição mais sugerida é a Anaconda ou a MiniConda. A primeira é completa e já vem com todas os principais pacotes da área, mas eu prefiro a segunda, pois tem só o essencial e me permite adicionar apenas o que preciso. Também, se pode utilizar a distribuição padrão Python.
+Para iniciantes em Ciências de Dados e Inteligência Artificial a distribuição mais sugerida é a [Anaconda](https://www.anaconda.com/distribution/#download-section) ou a [MiniConda](https://conda.io/en/latest/miniconda.html). A primeira é completa e já vem com todas os principais pacotes da área, mas eu prefiro a segunda, pois tem só o essencial e me permite adicionar apenas o que preciso. Também, se pode utilizar a distribuição padrão [Python](https://www.python.org/downloads/).
 
 De qualquer forma, a versão utilizada do Python foi a *3.7*. E sugiro fortemente que crie um novo ambiente, *environment* (Conda, Pipenv, Virtualenv, etc.).
 
@@ -92,10 +92,19 @@ De qualquer forma, a versão utilizada do Python foi a *3.7*. E sugiro fortement
 
 Para seu maior aprendizado tente levantar o ambiente e instalar as dependências informadas no notebook por conta própria. Uma forma prática de criar o ambiente com as mesmas dependencias que utilizei é utilizando o arquivo requirements.txt:
 
-- Conda:
+- Conda (Windows):
 ```
 conda create -n <nome do ambiente> --file requirements.txt
 activate <nome do ambiente>
+cd <diretório raís do projeto>
+jupyter notebook
+```
+
+- Conda (Unix):
+```
+conda create -n <nome do ambiente> --file requirements.txt
+source activate <nome do ambiente>
+cd <diretório raís do projeto>
 jupyter notebook
 ```
 
